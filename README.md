@@ -1,3 +1,5 @@
+Turns out open source GitHub Packages are totally worthless because they always require a personal access token to download, requiring you to inject access tokens into _everything_ just to install packages.
+
 # How to install from GitHub Packages
 
 For how to publish, see
