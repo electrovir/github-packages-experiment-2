@@ -1,0 +1,26 @@
+{
+    "name": "github-packages-experiment-2",
+    "private": true,
+    "homepage": "https://github.com/electrovir/github-packages-experiment-2#readme",
+    "bugs": {
+        "url": "https://github.com/electrovir/github-packages-experiment-2/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/electrovir/github-packages-experiment-2.git"
+    },
+    "license": "MIT",
+    "scripts": {
+        "format": "virmator format write",
+        "prepublishOnly": "npm run test:full",
+        "spellcheck": "virmator spellcheck",
+        "test": "virmator test",
+        "test:full": "npm test && npm run spellcheck && virmator format check"
+    },
+    "dependencies": {
+        "@electrovir/github-packages-experiment-1": "0.0.0"
+    },
+    "devDependencies": {
+        "virmator": "2.0.7"
+    }
+}
